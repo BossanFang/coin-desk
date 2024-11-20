@@ -1,0 +1,4 @@
+# Maven specific
+target/
+
+.vscode/
