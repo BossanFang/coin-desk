@@ -20,6 +20,14 @@ public class Currency {
     @Column(nullable = false)
     private String name;
 
+    public Currency() {
+    }
+
+    public Currency(String code, String name) {
+        this.code = code;
+        this.name = name;
+    }
+
     public Long getId() {
         return id;
     }
